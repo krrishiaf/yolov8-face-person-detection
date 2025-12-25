@@ -1,6 +1,7 @@
 # YOLOv8 Image & Video Detection Web App
 
-An AI-powered web application built using **YOLOv8** and **Flask** that performs human detection on both images and videos.
+A Flask-based web application that performs human detection on images and videos using YOLOv8.
+Supports image preview and downloadable processed videos with bounding boxes.
 
 ## 🚀 Features
 - Upload images or videos
@@ -16,15 +17,17 @@ An AI-powered web application built using **YOLOv8** and **Flask** that performs
 - OpenCV
 - HTML (Jinja2 templates)
 
-## ⚙️ How It Works
-1. User uploads an image or video
-2. YOLOv8 processes each frame
-3. Bounding boxes are drawn on detected humans
-4. Output image is displayed directly
-5. Output video is provided as a downloadable file (for browser compatibility)
+## Demo
+📹 Short demo video showing image and video detection  
+🖼️ Screenshots of detection results
 
-## ▶️ Run Locally
+(See LinkedIn post or screenshots below)
+
+## How to Run Locally
 
 ```bash
+git clone https://github.com/your-username/YOLOv8-Image-Video-Detection.git
+cd YOLOv8-Image-Video-Detection
 pip install -r requirements.txt
 python app.py
+
